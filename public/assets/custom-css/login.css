@@ -1,0 +1,101 @@
+/* Layar Laptop */
+@media (min-width: 992px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* KOLOM 1 */
+  .column1 {
+    background-color: #2d8cff;
+    background-image: url(/assets/img/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 120px 30px;
+  }
+
+  .judul-konten1 h1 {
+    margin-top: 400px;
+    margin-left: 40px;
+    font-weight: 700;
+    color: white;
+    font-size: 38px;
+  }
+
+  .judul-konten1 p {
+    margin-bottom: 100px;
+    margin-left: 40px;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+  }
+
+  /* AKHIR DARI KOLOM 1 */
+
+  /* KOLOM 2 */
+  .logobrand img {
+    margin-top: 30px;
+  }
+
+  .content2 {
+    margin: 90px;
+  }
+
+  .content2 h3 {
+    font-weight: 700;
+    color: #2d8cff;
+  }
+
+  .content2 p {
+    font-weight: 400;
+    color: #353535;
+  }
+
+  .btn-custom {
+    background-color: #2d8cff;
+    font-weight: 400;
+    color: white;
+  }
+
+  .btn-custom:hover {
+    background-color: #276fc7;
+    font-weight: 400;
+    color: white;
+  }
+
+  .footer {
+    margin-top: 100px;
+    font-size: 14px;
+  }
+
+  /* AKHIR DARI KOLOM 2 */
+}
+
+/* layar Hp */
+@media (max-width: 576px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #2d8cff;
+  }
+
+  .judul-konten1 {
+    color: white;
+  }
+
+  .judul-konten1 h1 {
+    font-weight: 700;
+  }
+}
